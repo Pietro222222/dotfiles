@@ -1,0 +1,49 @@
+{
+    "bspwm": {
+        "pkgs": [
+            "bspwm",
+            "sxhkd",
+            "picom",
+            "xorg-xsetroot",
+            "xorg-xinput",
+            "xorg-xset",
+            "feh",
+            "libnotify",
+            "xfce4-notifyd"
+        ],
+        "post_install": "./scripts/install_bspwm.sh"
+    },
+    "alacritty": {
+        "pkgs": [
+            "alacritty"
+        ],
+        "post_install": "./scripts/install_alacritty.sh"
+    },
+    "polybar": {
+        "pkgs": [
+            "polybar"
+        ],
+        "post_install": "./scripts/install_polybar.sh"
+    },
+    "emacs": {
+        "pkgs": [
+            "emacs",
+            "git"
+        ],
+        "post_install": "./scripts/install_emacs.sh"
+    },
+    "neovim": {
+        "pkgs": [
+            "neovim",
+            "luajit"
+        ],
+        "post_install": "./scripts/install_neovim.sh"
+    },
+    "fish": {
+        "pkgs": [
+            "fish",
+            "starship"
+        ],
+        "post_install":"./scripts/install_fish.sh"
+    }
+}
