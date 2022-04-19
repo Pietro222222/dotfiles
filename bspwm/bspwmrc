@@ -21,7 +21,7 @@ bspc rule -a Screenkey manage=off
 compton --config ~/.config/picom/picom.conf &
 xsetroot -cursor_name left_ptr &
 ${HOME}/.fehbg
-/usr/lib/xfce4/notifyd/xfce4-notifyd &
+dunst &
 MONITOR="DP-0" polybar -c /home/pietro/.config/polybar/config bar &
 #bash $HOME/.config/polybar/launch.sh --forest >> ~/.config/bspwm/logs/polybar.logs
 
