@@ -34,11 +34,13 @@ cmp.setup {
     completion = {
         completeopt = 'menuone,noinsert,noselect',
     },
-    documentation = {
-        border = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" },
-        winhighlight = 'FloatBorder:NormalFloat',
-        maxheigth = math.floor(vim.fn.winheight(0) / 2),
-        maxwidth = math.floor(vim.fn.winwidth(0) / 2),
+    window = {
+	documentation = {
+        	border = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" },
+	        winhighlight = 'FloatBorder:NormalFloat',
+	        maxheigth = math.floor(vim.fn.winheight(0) / 2),
+        	maxwidth = math.floor(vim.fn.winwidth(0) / 2),
+    	},
     },
     sources = {
         { name = 'nvim_lsp' },
