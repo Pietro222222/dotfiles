@@ -3,7 +3,7 @@ local function map(mode, key, cmd)
 end
 
 local function bufmap(mode, key, cmd)
-   return vim.api.nvim_buf_set_keymap(bufnr, mode, key, cmd, { silent = true })
+   return vim.api.nvim_buf_set_keymap(bufnr or 0, mode, key, cmd, { silent = true })
 end
 
 local key_bindings = {
