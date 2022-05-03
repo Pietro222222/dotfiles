@@ -21,9 +21,8 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "JetBrains Mono" :size 12 :weight 'semi-light)
-      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
-(setq doom-unicode-font (font-spec :family "Noto Color Emoji" :size 12))
+;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
+;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -76,7 +75,11 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-;; (global-visual-line-mode t)
+(setq doom-font (font-spec :family "JetBrains Mono" :size 12 :weight 'semi-light)
+      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
+(setq doom-unicode-font (font-spec :family "Noto Color Emoji" :size 12))
+
+(setq display-line-numbers-type t)
 
 (require 'multiple-cursors)
 
@@ -102,9 +105,9 @@
          lsp-rust-analyzer-display-chaining-hints t
          lsp-rust-analyzer-display-parameter-hints t))
 
-;;(global-whitespace-mode +1)
+;; ;;(global-whitespace-mode +1)
 
-;;(elcord-mode)
+;; ;;(elcord-mode)
 (defun transparency (value)
       "Sets the transparency of the frame window. 0=transparent/100=opaque"
          (interactive "nTransparency Value 0 - 100 opaque:")

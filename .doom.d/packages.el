@@ -48,9 +48,9 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
-;;(package! elcord)
+
 (package! gruber-darker-theme)
 (package! yex-mode
-  :recipe (:host github 
+  :recipe (:host github
            :repo "yxqsnz/yex.el"))
 (package! lsp-ui)

@@ -61,6 +61,7 @@ cairo
 cairomm
 cantarell-fonts
 capitaine-cursors
+cava
 cdparanoia
 chaotic-keyring
 chaotic-mirrorlist
@@ -139,6 +140,7 @@ feh
 ffmpeg
 ffmpeg4.4
 ffmpegthumbnailer
+fftw
 figlet
 file
 file-roller
@@ -256,6 +258,7 @@ http-parser
 hwdata
 hwdetect
 hwinfo
+hwloc
 hyphen
 iana-etc
 icu
@@ -488,6 +491,7 @@ libraqm
 libraw
 libraw1394
 librsvg
+librsync
 libsamplerate
 libsasl
 libseccomp
@@ -592,6 +596,7 @@ lm_sensors
 lmdb
 logmein-hamachi
 logrotate
+lolcat
 lsb-release
 lsof
 lsscsi
@@ -692,6 +697,7 @@ opencore-amr
 opendesktop-fonts
 openexr
 openjpeg2
+openmpi
 openresolv
 openssh
 openssl
@@ -861,6 +867,25 @@ rp-pppoe
 rpcbind
 rsync
 rtmpdump
+ruby
+ruby-diff-lcs
+ruby-irb
+ruby-manpages
+ruby-optimist
+ruby-paint
+ruby-psych
+ruby-rainbow
+ruby-rdoc
+ruby-reline
+ruby-rspec
+ruby-rspec-core
+ruby-rspec-expectations
+ruby-rspec-mocks
+ruby-rspec-support
+ruby-stringio
+ruby-term-ansicolor
+ruby-tins
+rubygems
 run-parts
 runc
 rust
@@ -868,7 +893,7 @@ rust-analyzer
 rust-src
 s-nail
 sbc
-sdl
+sdl12-compat
 sdl2
 seatd
 sed
