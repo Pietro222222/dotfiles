@@ -23,4 +23,5 @@ return require('packer').startup(function()
     use 'nvim-lua/lsp_extensions.nvim' 
     use 'akinsho/toggleterm.nvim'
     use 'glepnir/dashboard-nvim'
+    use 's-janjic/gruber-darker-nvim'
 end)

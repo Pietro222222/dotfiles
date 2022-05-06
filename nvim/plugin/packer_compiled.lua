@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/pietro/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
+  ["gruber-darker-nvim"] = {
+    loaded = true,
+    path = "/home/pietro/.local/share/nvim/site/pack/packer/start/gruber-darker-nvim",
+    url = "https://github.com/s-janjic/gruber-darker-nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/pietro/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",

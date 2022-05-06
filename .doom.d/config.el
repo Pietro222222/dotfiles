@@ -82,6 +82,8 @@
 (setq display-line-numbers-type t)
 
 (require 'multiple-cursors)
+(require 'tree-sitter)
+(require 'tree-sitter-langs)
 
 (global-set-key (kbd "C-x C-r") 'replace-string)
 (global-set-key (kbd "C-=") 'text-scale-increase)
@@ -105,9 +107,7 @@
          lsp-rust-analyzer-display-chaining-hints t
          lsp-rust-analyzer-display-parameter-hints t))
 
-;; ;;(global-whitespace-mode +1)
 
-;; ;;(elcord-mode)
 (defun transparency (value)
       "Sets the transparency of the frame window. 0=transparent/100=opaque"
          (interactive "nTransparency Value 0 - 100 opaque:")

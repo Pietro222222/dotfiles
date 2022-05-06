@@ -600,6 +600,7 @@ lolcat
 lsb-release
 lsof
 lsscsi
+lttng-ust
 lua
 lua-language-server
 lua53
@@ -682,6 +683,7 @@ nss
 nss-mdns
 ntfs-3g
 ntp
+numactl
 nvidia-dkms
 nvidia-installer-common
 nvidia-installer-db
@@ -701,6 +703,7 @@ openmpi
 openresolv
 openssh
 openssl
+openssl-1.0
 openvpn
 opus
 orc
@@ -776,6 +779,7 @@ popt
 portaudio
 postman-bin
 power-profiles-daemon
+powershell
 ppp
 pptpclient
 procps-ng
@@ -1142,6 +1146,7 @@ xterm
 xvidcore
 xxhash
 xz
+yad
 yad-eos
 yay
 zbar

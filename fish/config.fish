@@ -7,3 +7,5 @@ set PATH /home/pietro/.cargo/bin:$PATH
 alias emacs='emacsclient -a "." -c'
 alias ls='exa --icons --color=always'
 set PATH "$PATH:$HOME/.local/bin"
+alias please='sudo'
+

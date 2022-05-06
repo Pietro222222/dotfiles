@@ -20,7 +20,7 @@ vim.opt.mouse = 'a'
 -- color scheme related shit
 local theme = {
   background = "dark",
-  cmd = [[colorscheme gruvbox]]
+  cmd = [[colorscheme gruberdarker]]
 }
 vim.opt.termguicolors = true
 vim.o.background = theme.background
