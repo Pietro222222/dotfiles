@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/pietro/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["instant.nvim"] = {
+    loaded = true,
+    path = "/home/pietro/.local/share/nvim/site/pack/packer/start/instant.nvim",
+    url = "https://github.com/jbyuki/instant.nvim"
+  },
   ["lsp_extensions.nvim"] = {
     loaded = true,
     path = "/home/pietro/.local/share/nvim/site/pack/packer/start/lsp_extensions.nvim",

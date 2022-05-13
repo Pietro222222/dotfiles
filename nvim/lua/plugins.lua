@@ -24,4 +24,5 @@ return require('packer').startup(function()
     use 'akinsho/toggleterm.nvim'
     use 'glepnir/dashboard-nvim'
     use 's-janjic/gruber-darker-nvim'
+    use 'jbyuki/instant.nvim'	
 end)

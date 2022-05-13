@@ -88,3 +88,5 @@ vim.g.dashboard_custom_footer = {
 vim.g.dashboard_custom_section = {
 	a = { description = { "" }, command = "" },
 }
+
+vim.g["instant_username"] = "Pie"
