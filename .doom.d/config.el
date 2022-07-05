@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'gruber-darker)
+(setq doom-theme 'mirwood)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -75,7 +75,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(setq doom-font (font-spec :family "JetBrains Mono" :size 12 :weight 'semi-light)
+(setq doom-font (font-spec :family "Iosevka" :size 17 :weight 'bold)
       doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 (setq doom-unicode-font (font-spec :family "Noto Color Emoji" :size 12))
 
@@ -84,6 +84,7 @@
 (require 'multiple-cursors)
 (require 'tree-sitter)
 (require 'tree-sitter-langs)
+(require 'grammarly)
 
 (global-set-key (kbd "C-x C-r") 'replace-string)
 (global-set-key (kbd "C-=") 'text-scale-increase)
